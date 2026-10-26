@@ -354,35 +354,6 @@ Open your browser and navigate to:
 | **Multilingual UI** | Verified live English and Hindi text translations across navigation and dashboard cards | ✅ Verified |
 | **Responsive Design** | Tested on desktop, tablet, and mobile viewport layouts | ✅ Verified |
 
----
-
-## 🎓 Viva & Project Presentation Questions (Cheat Sheet)
-
-1. **Why did you choose the MERN stack for an AgriTech platform?**
-   * *Answer:* MongoDB's flexible schema effortlessly handles variable agricultural data (differing soil parameters, crop stages, and varying order item types). React provides instant, interactive client feedback for charts and growth steppers without full-page reloads. Express and Node offer high throughput for asynchronous sensor/weather telemetry.
-
-2. **How does the Farm Health Score algorithm work?**
-   * *Answer:* Rather than arbitrary numbers, it uses a weighted multi-factor formula:
-     $$\text{Score} = (0.30 \times \text{Soil}) + (0.25 \times \text{Crop Health}) + (0.20 \times \text{Water System}) + (0.15 \times \text{Pest Risk}) + (0.10 \times \text{Activity Completion})$$
-     It pinpoints the weakest factor and provides 2–3 actionable remedies.
-
-3. **How is security handled across user roles?**
-   * *Answer:* Authentication uses signed JSON Web Tokens (JWT) with bcrypt salt rounds for password storage. Express middleware checks role authorization (`authorize('Admin')`), blocking regular farmers from administrative routes with HTTP 403 Forbidden.
-
-4. **How does Crop Doctor handle liability?**
-   * *Answer:* It functions as an educational first-line diagnostic guide based on ICAR plant pathology benchmarks and explicitly presents a clear agricultural disclaimer prompting consultation with local Krishi Vigyan Kendra (KVK) scientists for severe infestations.
-
----
-
-## 🔮 Future Roadmap
-
-* **Satellite Imagery & NDVI:** Integration with Sentinel-2 / Copernicus API for normalized difference vegetation index (NDVI) field mapping.
-* **IoT Soil Sensor Integration:** Direct MQTT telemetry ingestion from hardware moisture and temperature probes.
-* **Multilingual Voice Search:** Voice-based Hindi and regional dialect query recognition for low-literacy farmers.
-* **Government Portal Sync:** Direct integration with e-NAM (National Agriculture Market) API for live government procurement schedules.
-
----
-
 ## 🌾 Final Brand Message
 
 **KrishiConnect**  
